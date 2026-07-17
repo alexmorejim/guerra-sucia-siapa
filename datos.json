@@ -135,5 +135,51 @@
       { "pagina": "Pulso Jalisco", "postura": "pendiente", "hallazgo": "232 comentarios reportados (180 accesibles). Postura a favor/en contra pendiente de análisis de texto." },
       { "pagina": "Bancada Naranja Jalisco", "postura": "sindatos", "hallazgo": "Publicaciones en X sin comentarios registrados en el periodo." }
     ]
+  },
+  "rubrica": {
+    "actor": "Morena / 4T en Jalisco (casos guía: Tonatiuh Bravo Padilla e Itzul Barrera)",
+    "radiografia": {
+      "publico": "Sí cuenta con público: base 4T en Jalisco y seguidores propios de los diputados y del partido en Facebook y X; como público adyacente en el tema SIAPA, la comunidad universitaria de la UdeG.",
+      "datos": [
+        { "tipo": "1st party", "desc": "Métricas de sus propias páginas (alcance, engagement, seguidores), listas territoriales y de contacto del partido." },
+        { "tipo": "2nd party", "desc": "Datos de páginas y aliados que republican (PT, Futuro, Hagamos) y de grupos comunitarios afines." },
+        { "tipo": "3rd party", "desc": "Biblioteca de Anuncios de Meta (pauta), social listening de terceros, cobertura periodística y encuestas públicas." }
+      ],
+      "brecha": "La brecha más crítica es la falta de <strong>social listening estructurado y datos 3rd-party propios</strong> para detectar y medir la desinformación en tiempo real: hoy depende de reportes de monitoreo manuales, no de un sistema continuo.",
+      "funnel": { "etapa": "Interés → Intención", "cuello": "Las narrativas hostiles erosionan la credibilidad antes de la conversión: el problema no es el alcance, sino la calidad de la percepción en el tramo medio del funnel.", "dato": "De 846 reacciones, 320 (38%) son 'me divierte' (burla) y ~36% de los comentarios (universo proyectado) muestran señales de inautenticidad." }
+    },
+    "segmentacion": {
+      "segmento": "Clase media urbana de la ZMG, usuaria intensiva de Facebook y de grupos vecinales, con interés en servicios públicos (agua/SIAPA); no militante pero persuadible (voto blando).",
+      "justificacion": "Es el segmento donde mejor pega la narrativa 'no quieren pagar el agua / deudores' y donde se concentra el reenvío en grupos masivos (Barrio Santa Tere, 88.7 mil). Mover su percepción tiene alto impacto electoral.",
+      "persona": {
+        "nombre": "Laura, 42", "perfil": "Tapatía, mamá trabajadora de Zapopan. Usa Facebook sobre todo para grupos de su colonia. Le preocupa el desabasto de agua y desconfía en bloque de 'los políticos'.",
+        "atributos": ["Participativa en su comunidad", "Comparte contenido local", "Valora soluciones concretas, no ideología"],
+        "frena": "Percibe a la 4T como responsable del problema del agua por la narrativa dominante; no distingue que Zapopan y Guadalajara son los mayores deudores del SIAPA."
+      },
+      "tipo": "Principalmente <strong>conductual</strong> (uso de FB y grupos) + <strong>temática</strong> (agua/SIAPA) + <strong>geográfica</strong> (ZMG). No es demográfica pura."
+    },
+    "entorno": {
+      "camaras": "Los grupos vecinales masivos (p. ej. Barrio Santa Tere, 88.7 mil) funcionan como <strong>cámara de eco por autoselección</strong>, mientras el algoritmo de Facebook amplifica por engagement lo que genera más reacciones (burla).",
+      "tipo": "Mezcla: <strong>burbuja algorítmica</strong> (FB prioriza el contenido con más reacciones) + <strong>cámara de eco por autoselección</strong> (grupos afines). Ejemplo documentado: la republicación del post de El Jericallo News en el grupo de 88.7 mil miembros.",
+      "desinformacion": "Narrativa 'la UdeG/4T no quiere pagar el agua', que omite el art. 87 y que los mayores deudores del SIAPA son Zapopan y Guadalajara. Se amplifica con pauta anónima ($426 mil de golpeteo a Morena) y con bots (≈36% de comentarios inauténticos). Opera además un <strong>sesgo del silencio</strong>: la aclaración de la 4T no circula en esas audiencias.",
+      "recomendacion": "No responder de frente en esas cuentas (refuerza el algoritmo y les da alcance); comunicar por canales propios y aliados con datos verificables; y documentar la pauta anónima (Ad Library) como evidencia del origen pagado."
+    },
+    "propuesta": {
+      "canal": "Facebook — video corto / carrusel con estética vecinal",
+      "segmento": "Laura (clase media ZMG, grupos de colonia)",
+      "objecion": "\"¿Por qué la UdeG/4T no paga el agua?\"",
+      "mensaje": "En tu colonia el agua es de todas y todos. Por eso la UdeG YA empezó a pagar su parte al SIAPA. ¿Y sabías quién debe MÁS? Los ayuntamientos de Zapopan y Guadalajara. Aquí los números, sin choro 👇 #AguaParaTodos",
+      "etica": "SÍ usar: social listening y la transparencia pública de la Biblioteca de Anuncios de Meta. NO usar: las tácticas del adversario —páginas anónimas, bots, microtargeting engañoso—. Argumento: replicar esas técnicas (como las 32 páginas anónimas detectadas) destruiría la credibilidad y reproduciría la desinformación que se critica."
+    },
+    "ia_disclosure": {
+      "ia": "Claude (Anthropic) vía Claude Code",
+      "para_que": "Procesar el reporte de monitoreo, estructurar el análisis, generar las visualizaciones del tablero web y redactar borradores de texto. El análisis y las decisiones finales son del autor.",
+      "prompts": [
+        "Analizar el reporte de monitoreo e identificar páginas, alcance, reacciones, comentarios y personajes más atacados.",
+        "Construir un tablero web con termómetro de páginas, ranking de atacados, reacciones, sentimiento y pauta.",
+        "Integrar las dimensiones de la rúbrica (radiografía de audiencia, segmentación, entorno informativo y propuesta estratégica) en el tablero."
+      ],
+      "nota": "Sustituir esta lista por los prompts reales usados por el autor antes de entregar."
+    }
   }
 }
