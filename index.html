@@ -216,6 +216,11 @@
   .fcard .fmeta{display:flex;flex-wrap:wrap;gap:12px;margin-top:9px;font-size:11.5px;color:var(--muted)}
   .fcard .fmeta b{color:var(--ink)}
   .feed-note{font-size:11.5px;color:var(--muted);margin-top:12px;padding:10px 12px;background:var(--surface-2);border-radius:9px;border-left:3px solid var(--warn)}
+  .fbtn{display:inline-flex;align-items:center;gap:6px;margin-top:10px;background:var(--accent);color:#fff;border-radius:8px;padding:7px 13px;font-size:12px;font-weight:700;text-decoration:none;transition:background .15s;width:fit-content}
+  .fbtn:hover{background:var(--accent-2);text-decoration:none;color:#fff}
+  .fbtn.off{background:var(--surface-2);color:var(--muted);cursor:default}
+  .tbtn{display:inline-flex;align-items:center;gap:5px;background:var(--accent);color:#fff;border-radius:6px;padding:4px 10px;font-size:11px;font-weight:700;text-decoration:none}
+  .tbtn:hover{background:var(--accent-2);text-decoration:none;color:#fff}
 
   .table-scroll{overflow-x:auto;border:1px solid var(--border);border-radius:12px}
   table.detail{border-collapse:collapse;width:100%;min-width:860px;font-size:12px;background:var(--surface)}
@@ -674,12 +679,14 @@ function renderFeed(){
   const posts=[...DATA.posts].sort((a,b)=> new Date(b.fecha||0)-new Date(a.fecha||0)); // sin límite: todas
   posts.forEach(p=>{ const plat=p.plataforma==='Facebook'?'fb':'x'; const ic=p.plataforma==='Facebook'?'📘':'𝕏'; const tot=reactTotal(p); const tema=p.tema||'SIAPA · UdeG';
     const el=document.createElement('div'); el.className='fcard';
-    const link=p.enlace?`<a href="https://${p.enlace}" target="_blank" rel="noopener">ver publicación ↗</a>`:'';
+    const url=p.enlace?('https://'+p.enlace):(p.fuente||'');
+    const btn=url?`<a class="fbtn" href="${url}" target="_blank" rel="noopener">🔗 Abrir publicación</a>`:`<span class="fbtn off">Sin enlace disponible</span>`;
     el.innerHTML=`<div class="fav">${ic}</div><div>
       <div class="fpage">${p.pagina.replace(/\s*\(@[^)]+\)/,'')} <span class="fplat ${plat}">${p.plataforma}</span> <span class="ftema">${tema}</span></div>
       <div class="ftime">${p.fecha?fmtCorto(p.fecha):'fecha n/d'}</div>
       <div class="ftitle">${p.titulo}</div><div class="fmsg">${p.mensaje}</div>
-      <div class="fmeta">${tot?`<span>❤️ <b>${tot}</b> reacciones</span>`:''}${p.com_rep?`<span>💬 <b>${p.com_rep}</b> comentarios</span>`:''}${p.compartidas?`<span>🔁 <b>${p.compartidas}</b></span>`:''}${p.alcance?`<span>👁️ <b>${fmt(p.alcance)}</b></span>`:''}${link?`<span>${link}</span>`:''}${p.fuente?`<span><a href="${p.fuente}" target="_blank" rel="noopener">fuente ↗</a></span>`:''}</div>
+      <div class="fmeta">${tot?`<span>❤️ <b>${tot}</b> reacciones</span>`:''}${p.com_rep?`<span>💬 <b>${p.com_rep}</b> comentarios</span>`:''}${p.compartidas?`<span>🔁 <b>${p.compartidas}</b></span>`:''}${p.alcance?`<span>👁️ <b>${fmt(p.alcance)}</b></span>`:''}${p.fuente&&p.enlace?`<span><a href="${p.fuente}" target="_blank" rel="noopener">fuente ↗</a></span>`:''}</div>
+      ${btn}
     </div>`;
     host.appendChild(el); });
   document.getElementById('feed-note').innerHTML='Mostrando <strong>'+posts.length+' publicaciones</strong> capturadas — <strong>sin límite</strong>: el feed crece con cada nueva publicación que ingiera la rutina, de <strong>cualquier tema</strong> (no solo SIAPA). ⚠ La ingesta 100% en tiempo real desde Facebook/Instagram/X requiere acceso vía API o captura manual: las plataformas no permiten scraping automático abierto.';
@@ -699,7 +706,8 @@ function renderTable(){
   const tb=document.getElementById('tbody'); tb.innerHTML='';
   DATA.posts.forEach(p=>{ const rtot=reactTotal(p); const rtxt=rtot?Object.entries(p.react).map(([k,v])=>{const t=REACT_TYPES.find(x=>x.k===k);return `${v} ${t?t.label.replace(' (burla)',''):k}`;}).join(' · '):'—';
     const platClass=p.plataforma==='Facebook'?'fb':'x'; const alc=p.alcance?`<div style="margin-top:4px;color:var(--muted)">Alcance: <strong>${fmt(p.alcance)}</strong></div>`:'';
-    const link=p.enlace?`<div style="margin-top:2px"><a href="https://${p.enlace}" target="_blank" rel="noopener">${p.enlace}</a></div>`:'';
+    const turl=p.enlace?('https://'+p.enlace):(p.fuente||'');
+    const link=turl?`<div style="margin-top:5px"><a class="tbtn" href="${turl}" target="_blank" rel="noopener">🔗 Abrir</a></div>`:'';
     const comTxt=p.com_acc?`${p.com_rep} reportados<br><small>${p.com_acc} accesibles</small>`:(p.com_rep||'0');
     tb.insertAdjacentHTML('beforeend',`<tr><td><span class="pill ${platClass}">${p.plataforma}</span></td><td><strong>${p.pagina}</strong></td>
       <td><strong>${p.titulo}</strong>${alc}${link}</td>
