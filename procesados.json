@@ -1,0 +1,6 @@
+{
+  "descripcion": "Reportes de monitoreo ya ingeridos al tablero. La rutina de actualización procesa solo los .docx de reportes/ que NO estén en esta lista.",
+  "reportes": [
+    "Guerra sucia SIAPA 17 julio.docx"
+  ]
+}
