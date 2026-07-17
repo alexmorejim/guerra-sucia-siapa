@@ -220,7 +220,7 @@
       "tema": "Ataque personal",
       "titulo": "Publicación que acusa a Leonardo Almaguer de acoso y de presentarse ebrio en el Congreso",
       "alcance": null,
-      "enlace": null,
+      "enlace": "facebook.com/mxbrujas",
       "mensaje": "Publicación con lenguaje despectivo que acusa al diputado Leonardo Almaguer (PT) de acosar a mujeres trabajadoras del Congreso y de presentarse alcoholizado. Es un ataque personal; la acusación no está verificada en este tablero.",
       "react": {},
       "com_rep": 0,
@@ -326,18 +326,44 @@
       "fuente": "https://www.proceso.com.mx/nacional/2026/2/3/revelan-pasado-de-robo-delincuencia-organizada-de-diputado-del-pt-jalisco-367744.html"
     },
     {
-      "name": "Carlos Lomelí",
-      "role": "Figura morenista",
-      "type": "pro",
-      "level": 0,
-      "desc": "PROMOVIDO (no atacado) por 4 páginas anónimas — Jóvenes Transformadores, Jalisco Con la 4T, Jalisco Transforma, Historias de la ZMG — con gasto conjunto de $181 mil."
+      "name": "Tonantzin Cárdenas",
+      "role": "Diputada · Futuro",
+      "type": "atk",
+      "level": 3,
+      "desc": "Blanco de una campaña coordinada de desinformación en el tema del agua/SIAPA (publicaciones promovidas en su contra). Denunció además presión del Ejecutivo y campañas de desprestigio contra legisladores críticos del gobernador Lemus.",
+      "fuente": "https://verificado.com.mx/agua-guadalajara-desinformacion-anuncios-pagados"
     },
     {
-      "name": "Mónica Magaña",
-      "role": "Diputada · MC",
-      "type": "pro",
-      "level": 0,
-      "desc": "PROMOVIDA por páginas anónimas del lado emecista (\"Zapalajara\", \"Política Jalisco\")."
+      "name": "Valeria Ávila",
+      "role": "Diputada · Hagamos",
+      "type": "atk",
+      "level": 2,
+      "desc": "Atacada por su postura contra el endeudamiento del SIAPA y el financiamiento privado del agua; sus posicionamientos fueron blanco de publicaciones promovidas en Facebook.",
+      "fuente": "https://verificado.com.mx/agua-guadalajara-desinformacion-anuncios-pagados"
+    },
+    {
+      "name": "Mariana Casillas",
+      "role": "Diputada · Futuro",
+      "type": "atk",
+      "level": 3,
+      "desc": "Blanco de campañas digitales coordinadas de desinformación por grupos conservadores (Frente Nacional por la Familia, 'Actívate') en torno a iniciativas de derechos reproductivos.",
+      "fuente": "https://verificado.com.mx/campanas-digitales-frenan-derechos-sexuales"
+    },
+    {
+      "name": "Mery Pozos",
+      "role": "Diputada federal · Morena",
+      "type": "atk",
+      "level": 2,
+      "desc": "Denunció una 'ofensiva de MC' en su contra: quejas por presunta campaña anticipada y señalamientos por espectaculares con su nombre, que ella sostiene tenían fines informativos.",
+      "fuente": "https://siker.com.mx/jalisco/mery-pozos-niega-campana-anticipada-en-gdl-senala-ofensiva-de-mc/"
+    },
+    {
+      "name": "Carlos Lomelí",
+      "role": "Senador · Morena",
+      "type": "atk",
+      "level": 1,
+      "desc": "Caso mixto: la dirigencia de Morena lo ha considerado 'víctima de golpeteo', pero también enfrenta señalamientos sustantivos por presunto conflicto de interés que en su momento motivaron su renuncia como superdelegado.",
+      "fuente": "https://www.informador.mx/jalisco/Dirigencia-estatal-de-Morena-ve-a-Carlos-Lomeli-como-victima-de-golpeteo-20190715-0079.html"
     }
   ],
   "fuentes": [
@@ -352,6 +378,18 @@
     {
       "titulo": "Revelan pasado de robo y delincuencia organizada de diputado del PT (Proceso, 3 feb 2026)",
       "url": "https://www.proceso.com.mx/nacional/2026/2/3/revelan-pasado-de-robo-delincuencia-organizada-de-diputado-del-pt-jalisco-367744.html"
+    },
+    {
+      "titulo": "El agua en Guadalajara: desinformación y anuncios pagados (Verificado MX)",
+      "url": "https://verificado.com.mx/agua-guadalajara-desinformacion-anuncios-pagados"
+    },
+    {
+      "titulo": "Campañas digitales que frenan los derechos sexuales en México (Verificado MX)",
+      "url": "https://verificado.com.mx/campanas-digitales-frenan-derechos-sexuales"
+    },
+    {
+      "titulo": "Mery Pozos niega campaña anticipada; señala ofensiva de MC (Siker)",
+      "url": "https://siker.com.mx/jalisco/mery-pozos-niega-campana-anticipada-en-gdl-senala-ofensiva-de-mc/"
     }
   ],
   "sentimiento_comentarios": {
