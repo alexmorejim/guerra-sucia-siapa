@@ -109,5 +109,15 @@
       { "big": "$181 mil", "who": "4 páginas", "txt": " (Jóvenes Transformadores, Jalisco Con la 4T, Jalisco Transforma, Historias de la ZMG) promueven a Carlos Lomelí." },
       { "big": "", "who": "Lado MC:", "txt": " \"Zapalajara\" y \"Política Jalisco\" replican el patrón a favor de la dip. Mónica Magaña. \"Ahí te va esta\" y \"Al Aire\", golpeteo a periodistas + pro-MC." }
     ]
+  },
+  "sentimiento_comentarios": {
+    "preliminar": true,
+    "nota": "El sentimiento cuantitativo comentario por comentario requiere el <strong>texto de los comentarios</strong> (volcado completo), aún no disponible en este corte. Abajo se muestran (1) el <strong>tono de las reacciones</strong>, que sí está medido, y (2) los <strong>hallazgos cualitativos</strong> registrados en el monitoreo. Cuando se cargue el texto, la rutina llenará el desglose numérico automáticamente.",
+    "cualitativo": [
+      { "pagina": "Libro Negro", "postura": "refuerzan", "hallazgo": "Mayoría de comentarios a favor de que la UdeG sí debe pagar: refuerzan el encuadre de la página." },
+      { "pagina": "El Jericallo News", "postura": "mixto", "hallazgo": "De 50 comentarios revisados, 36% con señales de inautenticidad (bots/apodos/anónimos). No se cuantificó postura a favor/en contra sobre el universo completo." },
+      { "pagina": "Pulso Jalisco", "postura": "pendiente", "hallazgo": "232 comentarios reportados (180 accesibles). Postura a favor/en contra pendiente de análisis de texto." },
+      { "pagina": "Bancada Naranja Jalisco", "postura": "sindatos", "hallazgo": "Publicaciones en X sin comentarios registrados en el periodo." }
+    ]
   }
 }
