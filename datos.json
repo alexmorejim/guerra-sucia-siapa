@@ -15,8 +15,8 @@
   "kpis": [
     {
       "lbl": "Publicaciones",
-      "val": "7",
-      "sub": "en 5 páginas · multi-tema",
+      "val": "9",
+      "sub": "en 7 páginas · multi-tema",
       "clase": "",
       "icon": "📰"
     },
@@ -211,6 +211,40 @@
       "compartidas": 0,
       "objetivo": "Candelaria Ochoa",
       "fuente": "https://politico.mx/2026/04/23/otra-polemica-mas-la-diputada-candelaria-ochoa-omitio-declarar-una-propiedad/"
+    },
+    {
+      "id": 8,
+      "plataforma": "Facebook",
+      "pagina": "Brujas Mx",
+      "fecha": "2026-05-19T12:00:00-06:00",
+      "tema": "Ataque personal",
+      "titulo": "Publicación que acusa a Leonardo Almaguer de acoso y de presentarse ebrio en el Congreso",
+      "alcance": null,
+      "enlace": null,
+      "mensaje": "Publicación con lenguaje despectivo que acusa al diputado Leonardo Almaguer (PT) de acosar a mujeres trabajadoras del Congreso y de presentarse alcoholizado. Es un ataque personal; la acusación no está verificada en este tablero.",
+      "react": {},
+      "com_rep": 0,
+      "com_acc": null,
+      "auth": null,
+      "compartidas": 0,
+      "objetivo": "Leonardo Almaguer"
+    },
+    {
+      "id": 9,
+      "plataforma": "Facebook",
+      "pagina": "El Pueblo Vigilante",
+      "fecha": "2026-07-01T14:13:00-06:00",
+      "tema": "SIAPA · Agua",
+      "titulo": "\"¡MORENA Y PT EN CONTRA DEL SANEAMIENTO DE AGUA EN GUADALAJARA!\"",
+      "alcance": null,
+      "enlace": "facebook.com/elpueblovigilantemx",
+      "mensaje": "Afirma que Leonardo Almaguer declaró que Morena y el PT estarán en contra de aprobar el 'Plan de Agua Limpia' propuesto por el gobernador Pablo Lemus, y acusa a la 4T de 'lucrar' en vez de mejorar el agua de la ciudad.",
+      "react": {},
+      "com_rep": 0,
+      "com_acc": null,
+      "auth": null,
+      "compartidas": 0,
+      "objetivo": "Leonardo Almaguer"
     }
   ],
   "reach": [
@@ -410,13 +444,5 @@
       "nota": "Sustituir esta lista por los prompts reales usados por el autor antes de entregar."
     }
   },
-  "paginas_seguimiento": [
-    {
-      "nombre": "El Pueblo Vigilante",
-      "plataforma": "Facebook",
-      "url": "https://www.facebook.com/elpueblovigilantemx",
-      "estado": "en seguimiento",
-      "nota": "Agregada al monitoreo. Sin publicaciones capturadas aún; pendiente de registrar contenido y métricas (Facebook no permite lectura automática de su feed)."
-    }
-  ]
+  "paginas_seguimiento": []
 }
