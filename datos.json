@@ -13,7 +13,7 @@
     "disclaimer": "Cifras obtenidas del monitoreo de publicaciones públicas en Facebook, Instagram y X. Los indicadores de autenticidad de comentarios se calculan sobre el <strong>universo de comentarios reportados</strong>, proyectando las proporciones observadas en las muestras revisadas manualmente. La inversión en pauta procede de la Biblioteca de Anuncios de Meta."
   },
   "kpis": [
-    { "lbl": "Publicaciones", "val": "5", "sub": "en 4 páginas · 3 plataformas", "clase": "", "icon": "📰" },
+    { "lbl": "Publicaciones", "val": "7", "sub": "en 5 páginas · multi-tema", "clase": "", "icon": "📰" },
     { "lbl": "Alcance reportado", "val": "43.7k", "sub": "+88.7k grupo de reenvío", "clase": "accent", "icon": "👁️" },
     { "lbl": "Reacciones totales", "val": "846", "sub": "FB + X sumadas", "clase": "", "icon": "❤️" },
     { "lbl": "\"Me divierte\" (burla)", "val": "38%", "sub": "320 de 846 reacciones", "clase": "burla", "icon": "😂" },
@@ -68,6 +68,24 @@
       "react": { "like": 2 },
       "com_rep": 0, "com_acc": null, "auth": null,
       "compartidas": 0, "extra": "", "objetivo": "Tonatiuh Bravo Padilla"
+    },
+    {
+      "id": 6, "plataforma": "Facebook", "pagina": "Pulso Jalisco", "fecha": null, "tema": "Infancias trans · VPG",
+      "titulo": "Video: \"Candelaria Ochoa insiste: en Jalisco sí están a favor de las infancias trans\"",
+      "alcance": null, "enlace": "facebook.com/PulsoJaliscoNoticias/videos/1607888216931508/",
+      "mensaje": "Encuadre de golpeteo contra la diputada morenista Candelaria Ochoa por su postura sobre el reconocimiento de identidad de infancias trans. Se inscribe en la controversia por el video del gobernador Pablo Lemus, que derivó en una denuncia de la diputada por violencia política de género.",
+      "react": {}, "com_rep": 0, "com_acc": null, "auth": null, "compartidas": 0,
+      "objetivo": "Candelaria Ochoa",
+      "fuente": "https://www.jornada.com.mx/noticia/2026/02/16/estados/candelaria-ochoa-acusa-a-pablo-lemus-de-ataques-y-violencia-politica-por-genero"
+    },
+    {
+      "id": 7, "plataforma": "Facebook", "pagina": "M. López San Martín", "fecha": null, "tema": "Declaración patrimonial",
+      "titulo": "Video: \"Una más en la 4T: señalan a la diputada Candelaria Ochoa\"",
+      "alcance": null, "enlace": "facebook.com/MLopezSanMartin/videos/4151723431824959/",
+      "mensaje": "Señalamientos por su declaración patrimonial (una propiedad registrada en cero pesos, otra por herencia y una más no declarada). A diferencia de la desinformación, este señalamiento parte de datos públicos verificables, aunque se difunde con tono de golpeteo.",
+      "react": {}, "com_rep": 0, "com_acc": null, "auth": null, "compartidas": 0,
+      "objetivo": "Candelaria Ochoa",
+      "fuente": "https://politico.mx/2026/04/23/otra-polemica-mas-la-diputada-candelaria-ochoa-omitio-declarar-una-propiedad/"
     }
   ],
   "reach": [
@@ -89,27 +107,40 @@
       "desc": "Se instrumentaliza a la Universidad como \"deudora que no quiere pagar\", omitiendo que Zapopan y Guadalajara son los mayores deudores del SIAPA." },
     { "name": "Karla Planter", "role": "Rectora UdeG", "type": "atk", "level": 1,
       "desc": "Mencionada de forma ambivalente: unas cuentas la señalan por decir que sí pagaría; otras la usan para contrastar (\"hizo lo que no se hizo antes\")." },
+    { "name": "Candelaria Ochoa", "role": "Diputada · Morena", "type": "atk", "level": 3,
+      "desc": "Blanco recurrente: reportó ~11 mil mensajes negativos y entre 25 y 30 amenazas de muerte tras un video del gobernador Pablo Lemus sobre 'infancias trans' (denunció violencia política de género). En paralelo enfrenta señalamientos —con base en datos públicos— por su declaración patrimonial.",
+      "fuente": "https://www.jornada.com.mx/noticia/2026/02/16/estados/candelaria-ochoa-acusa-a-pablo-lemus-de-ataques-y-violencia-politica-por-genero" },
+    { "name": "Leonardo Almaguer", "role": "Diputado · PT (aliado 4T)", "type": "atk", "level": 2,
+      "desc": "Golpeteo por la exhibición de antecedentes penales de 2004 (robo/delincuencia organizada, caso sin condena). A diferencia de la desinformación, se basa en un expediente real difundido con fines políticos.",
+      "fuente": "https://www.proceso.com.mx/nacional/2026/2/3/revelan-pasado-de-robo-delincuencia-organizada-de-diputado-del-pt-jalisco-367744.html" },
     { "name": "Carlos Lomelí", "role": "Figura morenista", "type": "pro", "level": 0,
       "desc": "PROMOVIDO (no atacado) por 4 páginas anónimas — Jóvenes Transformadores, Jalisco Con la 4T, Jalisco Transforma, Historias de la ZMG — con gasto conjunto de $181 mil." },
     { "name": "Mónica Magaña", "role": "Diputada · MC", "type": "pro", "level": 0,
       "desc": "PROMOVIDA por páginas anónimas del lado emecista (\"Zapalajara\", \"Política Jalisco\")." }
   ],
   "pauta_actores": {
-    "intro": "Inversión en pauta pagada asociada a cada actor, según la Biblioteca de Anuncios de Meta. Se distingue la inversión <em>a favor</em> (promoción) de la inversión <em>en contra</em> (golpeteo). Las cifras marcadas como <em>pendiente</em> requieren consulta directa a la Biblioteca de Anuncios filtrando por actor.",
-    "agregado": "Gasto agregado de golpeteo contra Morena en el trimestre (14 mar – 11 jun 2026): <strong>$426 mil</strong> — 8 páginas anónimas, 28% del total de pauta anónima detectada.",
+    "intro": "Gasto propio en pauta política en Meta (Facebook/Instagram) por actor, en los últimos 3 meses. Fuente primaria: Biblioteca de Anuncios de Meta, vía la columna de Jonathan Lomelí (@jnlomeli) en El Informador. Es inversión de <strong>autopromoción</strong> de cada actor.",
+    "total": "Total entre 49 actores identificados: <strong>$2.3 M</strong> en 3 meses. En el top 10: 7 de Movimiento Ciudadano, 2 de Morena y 1 del PAN.",
+    "nota": "El gasto de <em>ataque</em> por actor no es aislable en los datos públicos: el golpeteo se canaliza por <strong>páginas anónimas</strong> no atribuibles a un blanco específico. El gasto anónimo de golpeteo contra Morena en el trimestre fue de <strong>$426 mil</strong> (8 páginas).",
     "actores": [
-      { "name": "Itzul Barrera", "rol": "Diputada · Morena", "favor": 223000, "contra": null, "estado": "parcial",
-        "detalle": "$223 mil en promoción a su favor ('Guadalajara necesita un cambio' $166k + 'Transformación Tapatía' $57k). Gasto de golpeteo en su contra: pendiente de cuantificar en Ad Library." },
-      { "name": "Tonatiuh Bravo Padilla", "rol": "Diputado · exrector UdeG", "favor": 0, "contra": null, "estado": "pendiente",
-        "detalle": "Blanco principal del corte SIAPA. Inversión de pauta en su contra: pendiente de cuantificar por actor en Ad Library." },
-      { "name": "Carlos Lomelí", "rol": "Figura morenista", "favor": 181000, "contra": null, "estado": "parcial",
-        "detalle": "$181 mil en promoción a su favor (4 páginas anónimas). Golpeteo en su contra: pendiente." },
-      { "name": "Leonardo Almaguer", "rol": "Actor morenista", "favor": null, "contra": null, "estado": "pendiente",
-        "detalle": "Señalado como blanco frecuente. Sin cifras en el reporte actual; añadido en seguimiento — pendiente de Ad Library." },
-      { "name": "Candelaria Ochoa", "rol": "Actora morenista", "favor": null, "contra": null, "estado": "pendiente",
-        "detalle": "Señalada como blanco. Sin cifras en el reporte actual; añadida en seguimiento — pendiente de Ad Library." }
+      { "name": "Pablo Lemus", "rol": "Gobernador · MC", "monto": 501000 },
+      { "name": "Jorge Álvarez Máynez", "rol": "Dirigente nacional · MC", "monto": 392000 },
+      { "name": "Samuel García", "rol": "Gobernador NL · MC", "monto": 368000 },
+      { "name": "Juan José Frangie", "rol": "Alcalde Zapopan · MC", "monto": 293000 },
+      { "name": "Mónica Magaña", "rol": "Diputada · MC", "monto": 242000 },
+      { "name": "Omar Cervantes", "rol": "Diputado · MC", "monto": 138000 },
+      { "name": "Mery Pozos", "rol": "Diputada federal · Morena", "monto": 114000 },
+      { "name": "Gerardo Quirino", "rol": "Alcalde Tlajomulco", "monto": 101000 },
+      { "name": "Juan Pablo Colín", "rol": "Líder estatal · PAN", "monto": 90000 },
+      { "name": "Itzul Barrera", "rol": "Diputada · Morena", "monto": 78000 }
     ]
   },
+  "fuentes": [
+    { "titulo": "Jonathan Lomelí — «Políticos le abren la cartera a Facebook» (El Informador, 14 jun 2026)", "url": "https://www.informador.mx/ideas/politicos-le-abren-la-cartera-a-facebook-20260614-0118.html" },
+    { "titulo": "Morena Jalisco denuncia guerra sucia con recursos públicos (El Informador, 25 may 2026)", "url": "https://www.informador.mx/jalisco/morena-jalisco-denuncia-guerra-sucia-con-recursos-publicos-y-piden-investigar-funcionarios-por-hacer-campana-20260525-0158.html" },
+    { "titulo": "Candelaria Ochoa denuncia a Pablo Lemus por violencia política de género (La Jornada, 16 feb 2026)", "url": "https://www.jornada.com.mx/noticia/2026/02/16/estados/candelaria-ochoa-acusa-a-pablo-lemus-de-ataques-y-violencia-politica-por-genero" },
+    { "titulo": "Revelan pasado de robo y delincuencia organizada de diputado del PT (Proceso, 3 feb 2026)", "url": "https://www.proceso.com.mx/nacional/2026/2/3/revelan-pasado-de-robo-delincuencia-organizada-de-diputado-del-pt-jalisco-367744.html" }
+  ],
   "financiamiento": {
     "intro": "Contexto de la Biblioteca de Anuncios de Meta (columna de @jnlomeli). <strong>32 páginas anónimas</strong> invirtieron ~1.5 M de pesos en golpeteo y promoción política en Jalisco entre el 14 de marzo y el 11 de junio de 2026. Dos de ellas — <strong>Pulso Jalisco</strong> y <strong>Jalcirco</strong> — aparecen en este monitoreo.",
     "bars": [
