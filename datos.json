@@ -321,9 +321,9 @@
       "name": "Leonardo Almaguer",
       "role": "Diputado · PT (aliado 4T)",
       "type": "atk",
-      "level": 2,
-      "desc": "Golpeteo por la exhibición de antecedentes penales de 2004 (robo/delincuencia organizada, caso sin condena). A diferencia de la desinformación, se basa en un expediente real difundido con fines políticos.",
-      "fuente": "https://www.proceso.com.mx/nacional/2026/2/3/revelan-pasado-de-robo-delincuencia-organizada-de-diputado-del-pt-jalisco-367744.html"
+      "level": 3,
+      "desc": "Blanco de una campaña sostenida y multifrente en redes: la ofensiva se intensificó tras pedir un referéndum contra el alza al transporte y tras filtrarse sus antecedentes penales de 2004; incluye memes, fotos falsas y ataques personales. El PT la califica de 'estrategia de desgaste' por su postura opositora (transporte, agua/SIAPA). Los antecedentes penales son reales, pero se difunden con fines políticos.",
+      "fuente": "https://udgtv.com/noticias/leonardo-almaguer-enfrenta-ataques-en-redes-sociales-jalisco/319005"
     },
     {
       "name": "Tonantzin Cárdenas",
@@ -390,6 +390,14 @@
     {
       "titulo": "Mery Pozos niega campaña anticipada; señala ofensiva de MC (Siker)",
       "url": "https://siker.com.mx/jalisco/mery-pozos-niega-campana-anticipada-en-gdl-senala-ofensiva-de-mc/"
+    },
+    {
+      "titulo": "Leonardo Almaguer enfrenta ataques en redes sociales (UDG TV)",
+      "url": "https://udgtv.com/noticias/leonardo-almaguer-enfrenta-ataques-en-redes-sociales-jalisco/319005"
+    },
+    {
+      "titulo": "Piden investigar filtración de antecedentes penales de diputado en Jalisco (La Jornada)",
+      "url": "https://www.jornada.com.mx/noticia/2026/02/05/estados/piden-investigar-filtracion-de-antecedentes-penales-de-diputado-en-jalisco"
     }
   ],
   "sentimiento_comentarios": {
@@ -482,5 +490,13 @@
       "nota": "Sustituir esta lista por los prompts reales usados por el autor antes de entregar."
     }
   },
-  "paginas_seguimiento": []
+  "paginas_seguimiento": [
+    {
+      "nombre": "Jalcirco",
+      "plataforma": "Facebook",
+      "url": "https://www.facebook.com/jalcirco",
+      "estado": "en seguimiento",
+      "nota": "Agregada al monitoreo. Orientación por confirmar. Sin publicaciones capturadas aún; Facebook no permite lectura automática de su feed."
+    }
+  ]
 }
