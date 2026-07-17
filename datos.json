@@ -147,7 +147,7 @@
       "fecha": "2026-07-15T09:25:00-06:00",
       "titulo": "Video 0:08 · 15 jul 2026, 9:25 a.m. · 137 visualizaciones",
       "alcance": null,
-      "enlace": null,
+      "enlace": "x.com/DipCiudadanos",
       "mensaje": "\"En la gestión de Tonatiuh Bravo se destinaron 0 pesos\" para atender el compromiso de la deuda con el SIAPA.",
       "react": {},
       "com_rep": 0,
@@ -164,7 +164,7 @@
       "fecha": "2026-07-15T09:32:00-06:00",
       "titulo": "Continuación del hilo · 15 jul 2026",
       "alcance": null,
-      "enlace": null,
+      "enlace": "x.com/DipCiudadanos",
       "mensaje": "Afirma que \"tuvo que llegar Karla Planter para hacer lo que no se hizo antes: empezar a pagar la deuda\".",
       "react": {
         "like": 2
@@ -409,5 +409,14 @@
       ],
       "nota": "Sustituir esta lista por los prompts reales usados por el autor antes de entregar."
     }
-  }
+  },
+  "paginas_seguimiento": [
+    {
+      "nombre": "El Pueblo Vigilante",
+      "plataforma": "Facebook",
+      "url": "https://www.facebook.com/elpueblovigilantemx",
+      "estado": "en seguimiento",
+      "nota": "Agregada al monitoreo. Sin publicaciones capturadas aún; pendiente de registrar contenido y métricas (Facebook no permite lectura automática de su feed)."
+    }
+  ]
 }
