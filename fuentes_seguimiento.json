@@ -1,0 +1,25 @@
+{
+  "descripcion": "Cuentas/páginas a rastrear por plataforma vía Apify. Completa y ajusta los handles/URLs. El script apify_ingest.py consulta estas cuentas y vuelca los posts a datos.json. NO pongas aquí tu token de Apify: va en la variable de entorno APIFY_TOKEN.",
+  "actors": {
+    "instagram": "apify~instagram-scraper",
+    "facebook": "apify~facebook-posts-scraper",
+    "x": "apidojo~tweet-scraper"
+  },
+  "resultsLimit": 10,
+  "cuentas": {
+    "instagram": [
+      { "nombre": "Pulso Jalisco", "url": "https://www.instagram.com/pulso.jalisco/" },
+      { "nombre": "Jalcirco", "url": "https://www.instagram.com/jalcirco/" }
+    ],
+    "facebook": [
+      { "nombre": "Pulso Jalisco", "url": "https://www.facebook.com/PulsoJaliscoNoticias/" },
+      { "nombre": "El Pueblo Vigilante", "url": "https://www.facebook.com/elpueblovigilantemx" },
+      { "nombre": "Jalcirco", "url": "https://www.facebook.com/jalcirco" },
+      { "nombre": "Brujas Mx", "url": "https://www.facebook.com/mxbrujas" }
+    ],
+    "x": [
+      { "nombre": "Bancada Naranja Jalisco", "handle": "DipCiudadanos" },
+      { "nombre": "Libro Negro", "handle": "Libro_negro_" }
+    ]
+  }
+}
