@@ -15,8 +15,8 @@
   "kpis": [
     {
       "lbl": "Publicaciones",
-      "val": "9",
-      "sub": "en 7 páginas · multi-tema",
+      "val": "12",
+      "sub": "en 9 páginas · multi-tema",
       "clase": "",
       "icon": "📰"
     },
@@ -245,6 +245,60 @@
       "auth": null,
       "compartidas": 0,
       "objetivo": "Leonardo Almaguer"
+    },
+    {
+      "id": 10,
+      "plataforma": "Facebook",
+      "pagina": "Pulso Jalisco",
+      "fecha": null,
+      "tema": "Crisis del agua · desinformación",
+      "titulo": "Frase fabricada atribuida a Itzul Barrera sobre 'agua sucia'",
+      "alcance": null,
+      "enlace": "facebook.com/PulsoJaliscoNoticias/",
+      "mensaje": "La página atribuyó FALSAMENTE a la diputada Itzul Barrera una frase del tipo 'que la gente de Guadalajara se vaya acostumbrando al agua sucia'. Verificado.mx confirmó que la legisladora nunca dijo eso; se difundió con anuncios pagados y foto de perfil detectada como generada por IA.",
+      "react": {},
+      "com_rep": 0,
+      "com_acc": null,
+      "auth": null,
+      "compartidas": 0,
+      "objetivo": "Itzul Barrera",
+      "fuente": "https://verificado.com.mx/agua-guadalajara-desinformacion-anuncios-pagados"
+    },
+    {
+      "id": 11,
+      "plataforma": "Facebook",
+      "pagina": "Pablo Lemus (video oficial)",
+      "fecha": "2026-01-30T12:00:00-06:00",
+      "tema": "Identidad de género · menores",
+      "titulo": "Video que acusa a Candelaria Ochoa de querer 'cambiar el sexo a menores'",
+      "alcance": null,
+      "enlace": null,
+      "mensaje": "Video difundido con la imagen de la diputada afirmando que Morena/Ochoa buscaba 'cambiar el sexo a los menores', enmarcado como defensa de 'valores tradicionales'. Detonó ~11,000 mensajes negativos y entre 25 y 30 amenazas de muerte; ella denunció violencia política de género.",
+      "react": {},
+      "com_rep": 0,
+      "com_acc": null,
+      "auth": null,
+      "compartidas": 0,
+      "objetivo": "Candelaria Ochoa",
+      "fuente": "https://regeneracion.mx/amenazas-de-muerte-a-candelaria-ochoa-tras-ataques-de-lemus/"
+    },
+    {
+      "id": 12,
+      "plataforma": "X (Twitter)",
+      "pagina": "Narcopolíticos",
+      "fecha": "2026-02-18T12:00:00-06:00",
+      "tema": "Golpeteo · presuntos vínculos (no probados)",
+      "titulo": "Carlos Lomelí incorporado a la lista 'Narcopolíticos'",
+      "alcance": null,
+      "enlace": "narcopoliticos.com/project/carlos-lomeli-copy/",
+      "mensaje": "Ficha de golpeteo que señala al senador por PRESUNTOS vínculos con el crimen organizado y lavado de dinero (no probados judicialmente), retomada por medios. Ataque de alto impacto reputacional.",
+      "react": {},
+      "com_rep": 0,
+      "com_acc": null,
+      "auth": null,
+      "compartidas": 0,
+      "objetivo": "Carlos Lomelí",
+      "fuente": "https://politico.mx/2026/02/18/el-es-el-nuevo-morenista-en-la-lista-de-narcopoliticos-por-vinculos-con-el-cartel-de-sinaloa/"
     }
   ],
   "reach": [
@@ -286,7 +340,8 @@
       "role": "Diputada · Morena",
       "type": "atk",
       "level": 3,
-      "desc": "Blanco de mayor intensidad: patrón de hasta 3 videos diarios en su contra por votar a favor de Guadalajara. Paradójicamente, también es promovida por páginas anónimas pagadas de perfil morenista."
+      "desc": "Blanco sostenido de golpeteo rumbo a 2027. Verificado.mx documentó que la página 'Pulso Jalisco' le atribuyó FALSAMENTE una frase sobre 'agua sucia' que nunca dijo (desinformación con anuncios pagados). En paralelo, MC la denunció ante el IEPC por presuntos actos anticipados de campaña.",
+      "fuente": "https://verificado.com.mx/agua-guadalajara-desinformacion-anuncios-pagados"
     },
     {
       "name": "Tonatiuh Bravo Padilla",
@@ -329,41 +384,33 @@
       "name": "Tonantzin Cárdenas",
       "role": "Diputada · Futuro",
       "type": "atk",
-      "level": 3,
-      "desc": "Blanco de una campaña coordinada de desinformación en el tema del agua/SIAPA (publicaciones promovidas en su contra). Denunció además presión del Ejecutivo y campañas de desprestigio contra legisladores críticos del gobernador Lemus.",
-      "fuente": "https://verificado.com.mx/agua-guadalajara-desinformacion-anuncios-pagados"
-    },
-    {
-      "name": "Valeria Ávila",
-      "role": "Diputada · Hagamos",
-      "type": "atk",
       "level": 2,
-      "desc": "Atacada por su postura contra el endeudamiento del SIAPA y el financiamiento privado del agua; sus posicionamientos fueron blanco de publicaciones promovidas en Facebook.",
-      "fuente": "https://verificado.com.mx/agua-guadalajara-desinformacion-anuncios-pagados"
+      "desc": "El gobernador Pablo Lemus la señaló públicamente (junto al diputado del PT Leonardo Almaguer) de incitar a la violencia en las protestas del 10 de enero de 2026 contra el alza al transporte. Ella respondió con queja por violencia política de género ante el IEPC. Golpeteo institucional focalizado.",
+      "fuente": "https://www.cronica.com.mx/jalisco/guadalajara/2026/01/20/diputada-presentara-queja-contra-el-gobernador-por-violencia-politica-de-genero/"
     },
     {
       "name": "Mariana Casillas",
       "role": "Diputada · Futuro",
       "type": "atk",
-      "level": 3,
-      "desc": "Blanco de campañas digitales coordinadas de desinformación por grupos conservadores (Frente Nacional por la Familia, 'Actívate') en torno a iniciativas de derechos reproductivos.",
-      "fuente": "https://verificado.com.mx/campanas-digitales-frenan-derechos-sexuales"
+      "level": 2,
+      "desc": "Asociada a la consulta contra el alza al transporte (a 14 pesos), contexto que derivó en señalamientos del gobierno estatal hacia legisladores de oposición. Su exposición al golpeteo es más marginal que la de otras figuras.",
+      "fuente": "https://impacto.mx/opinion/silencio-roto/fuego-amigo-por-el-hueso-24062026/"
     },
     {
       "name": "Mery Pozos",
       "role": "Diputada federal · Morena",
       "type": "atk",
       "level": 2,
-      "desc": "Denunció una 'ofensiva de MC' en su contra: quejas por presunta campaña anticipada y señalamientos por espectaculares con su nombre, que ella sostiene tenían fines informativos.",
-      "fuente": "https://siker.com.mx/jalisco/mery-pozos-niega-campana-anticipada-en-gdl-senala-ofensiva-de-mc/"
+      "desc": "MC (a través de Mirza Flores) presentó quejas ante el IEPC por presunta promoción anticipada (reparto de un periódico impreso con su nombre). Golpeteo principalmente por la vía de denuncias electorales; cabe matizar que en 2025 ella misma fue sancionada por el Tribunal Electoral por dichos contra una diputada del PT.",
+      "fuente": "https://udgtv.com/noticias/iepc-recibe-queja-de-mirza-flores-contra-chema-martinez/318422"
     },
     {
       "name": "Carlos Lomelí",
       "role": "Senador · Morena",
       "type": "atk",
-      "level": 1,
-      "desc": "Caso mixto: la dirigencia de Morena lo ha considerado 'víctima de golpeteo', pero también enfrenta señalamientos sustantivos por presunto conflicto de interés que en su momento motivaron su renuncia como superdelegado.",
-      "fuente": "https://www.informador.mx/jalisco/Dirigencia-estatal-de-Morena-ve-a-Carlos-Lomeli-como-victima-de-golpeteo-20190715-0079.html"
+      "level": 3,
+      "desc": "Objeto de golpeteo intenso y recurrente centrado en PRESUNTOS vínculos con el crimen organizado y lavado de dinero (no probados): fue incorporado a la lista 'Narcopolíticos' (feb 2026) y a tableros de impunidad. Alta densidad de contenido adverso.",
+      "fuente": "https://politico.mx/2026/02/18/el-es-el-nuevo-morenista-en-la-lista-de-narcopoliticos-por-vinculos-con-el-cartel-de-sinaloa/"
     }
   ],
   "fuentes": [
@@ -398,6 +445,22 @@
     {
       "titulo": "Piden investigar filtración de antecedentes penales de diputado en Jalisco (La Jornada)",
       "url": "https://www.jornada.com.mx/noticia/2026/02/05/estados/piden-investigar-filtracion-de-antecedentes-penales-de-diputado-en-jalisco"
+    },
+    {
+      "titulo": "Amenazas de muerte a Candelaria Ochoa tras ataques de Lemus (Regeneración)",
+      "url": "https://regeneracion.mx/amenazas-de-muerte-a-candelaria-ochoa-tras-ataques-de-lemus/"
+    },
+    {
+      "titulo": "Tonantzin Cárdenas presentará queja contra el gobernador por VPG (Crónica)",
+      "url": "https://www.cronica.com.mx/jalisco/guadalajara/2026/01/20/diputada-presentara-queja-contra-el-gobernador-por-violencia-politica-de-genero/"
+    },
+    {
+      "titulo": "IEPC recibe queja de Mirza Flores (MC) contra morenistas por promoción anticipada (UDG TV)",
+      "url": "https://udgtv.com/noticias/iepc-recibe-queja-de-mirza-flores-contra-chema-martinez/318422"
+    },
+    {
+      "titulo": "Carlos Lomelí en lista de 'Narcopolíticos' (Político.mx)",
+      "url": "https://politico.mx/2026/02/18/el-es-el-nuevo-morenista-en-la-lista-de-narcopoliticos-por-vinculos-con-el-cartel-de-sinaloa/"
     }
   ],
   "sentimiento_comentarios": {
@@ -496,7 +559,7 @@
       "plataforma": "Facebook",
       "url": "https://www.facebook.com/jalcirco",
       "estado": "en seguimiento",
-      "nota": "Agregada al monitoreo. Orientación por confirmar. Sin publicaciones capturadas aún; Facebook no permite lectura automática de su feed."
+      "nota": "Se autodefine como 'información con humor y certeza periodística' (jalcirco.mx): noticias de Jalisco con tono satírico. Orientación (pro/anti-4T) por confirmar; no se caracterizó de forma concluyente en fuentes independientes."
     }
   ]
 }
